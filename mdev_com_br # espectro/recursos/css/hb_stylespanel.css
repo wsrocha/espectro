@@ -1,0 +1,133 @@
+
+@use "@material/floating-label/mdc-floating-label";
+@use "@material/line-ripple/mdc-line-ripple";
+@use "@material/notched-outline/mdc-notched-outline";
+@use "@material/textfield";
+
+@include textfield.core-styles;
+
+body {
+    font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #eceff1;
+}
+
+
+
+
+.opt-item {
+
+
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px 4px rgba(40, 40, 40, 0.10);
+  margin: 30px;
+  padding: 40px;
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.3s ease-out;
+  background-color: white;
+  text-align: center;
+  font-weight: bold;
+
+}
+
+#opt-menu {
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#mdmenu {
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+.opt-modal {
+
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px 4px rgba(40, 40, 40, 0.10);
+  margin: 20px;
+  padding: 20px;
+  width: 200px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.3s ease-out;
+  background-color: white;
+  text-align: center;
+  font-weight: bold;
+
+}
+
+.opt-item:hover{
+
+	  box-shadow: 10px 10px 10px 10px rgba(50, 50, 50, 0.25);
+	    transition: all 0.2s ease-out;
+
+
+}	
+.opt-modal:hover{
+
+    box-shadow: 10px 10px 10px 10px rgba(50, 50, 50, 0.25);
+      transition: all 0.2s ease-out;
+
+
+} 
+
+
+
+#dica {
+
+  color: gray;
+  font-size: 12px;
+}
+
+.opt-item a {
+
+	color: black;
+}
+
+
+.opt-modal a {
+
+  color: black;
+}
+
+
+
+
+
+footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    text-align: center;
+    color: gray;
+    font-weight: bolder;
+}
+
+
+
+
+
+.btvoltar {
+
+text-align: center;
+align-items: center;
+
+}

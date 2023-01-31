@@ -1,0 +1,60 @@
+
+@use "@material/floating-label/mdc-floating-label";
+@use "@material/line-ripple/mdc-line-ripple";
+@use "@material/notched-outline/mdc-notched-outline";
+@use "@material/textfield";
+
+@include textfield.core-styles;
+
+* {
+    font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+	background: url("https://i.imgur.com/ky8CT7X.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	background-size: cover;
+	color: black;
+}
+
+#login_components {
+
+	background-color: rgba(255,255,255,0.4);
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px 10px;
+	margin-top: 15vh;
+	border-radius: 12px;
+	text-align: center;
+}
+
+
+#botoes {
+
+background-color: #ADC239;
+margin: 10px;
+
+}
+
+#btn_forgot {
+
+	color: gray;
+}
+
+footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    text-align: center;
+}
+
+
+
+
